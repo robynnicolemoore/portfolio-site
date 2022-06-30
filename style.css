@@ -1,3 +1,57 @@
 * {
   font-family: "Oswald", sans-serif;
 }
+
+:root {
+  --heading-color: #27187e;
+  --primary-color: #758bfd;
+  --secondary-color: #aeb8fe;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.hero {
+  background-color: #f1f2f6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.home-buttons {
+  text-align: center;
+}
+
+.profile-pic {
+  max-width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .profile-pic {
+    max-width: 200px;
+  }
+}
+
+.name {
+  color: var(--heading-color);
+}
+
+.title {
+  color: var(--heading-color);
+}
+
+.work-button {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.contact-button {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
