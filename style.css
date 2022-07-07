@@ -79,3 +79,36 @@ html {
   text-decoration: underline;
   margin-bottom: 50px;
 }
+
+.about-pics {
+  max-height: 300px;
+  display: block;
+}
+
+.about-text {
+  margin-top: 200px;
+  font-size: 24px;
+}
+
+.travel-pic {
+  margin-left: 50%;
+}
+
+.family-pic {
+  margin-right: 50%;
+}
+
+@media (max-width: 500px) {
+  .about-pics {
+    max-width: 100px;
+    margin-top: 50px;
+  }
+  .header {
+    display: none;
+  }
+
+  .about-text {
+    margin: 20px;
+    font-size: 16px;
+  }
+}
