@@ -99,6 +99,8 @@ html {
 }
 .header {
   background-color: var(--secondary-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 @media (max-width: 500px) {
   .about-pics {
@@ -113,4 +115,16 @@ html {
     margin: 20px;
     font-size: 16px;
   }
+}
+
+.work-examples img {
+  max-width: 300px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--primary-color);
+}
+
+.work-examples h4 {
+  padding-top: 20px;
 }
