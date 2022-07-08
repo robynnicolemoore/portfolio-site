@@ -118,7 +118,8 @@ html {
 }
 
 .work-examples img {
-  max-width: 300px;
+  max-width: 500px;
+  height: 250px;
   padding: 10px;
   display: block;
   margin: 0 auto;
@@ -127,4 +128,8 @@ html {
 
 .work-examples h4 {
   padding-top: 20px;
+}
+
+.work-examples p {
+  font-size: 20px;
 }
