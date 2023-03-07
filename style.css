@@ -83,12 +83,21 @@ html {
 
 .about-pics {
   max-height: 300px;
-  display: block;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+.about-divs {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .about-text {
   margin-top: 200px;
-  font-size: 24px;
+  font-size: 36px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .travel-pic {
