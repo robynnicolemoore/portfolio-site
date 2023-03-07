@@ -73,6 +73,7 @@ html {
   border: solid var(--primary-color);
   display: block;
   margin: 15px auto;
+  max-height: 200px;
 }
 
 .projects {
