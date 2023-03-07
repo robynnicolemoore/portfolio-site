@@ -6,6 +6,7 @@
   --heading-color: #27187e;
   --primary-color: #758bfd;
   --secondary-color: #aeb8fe;
+  --header-color: #f1f2f6;
 }
 
 h1,
@@ -74,6 +75,7 @@ html {
   display: block;
   margin: 15px auto;
   max-height: 200px;
+  box-shadow: 5px 3px 3px var(--header-color);
 }
 
 .projects {
@@ -108,7 +110,7 @@ html {
   margin-right: 50%;
 }
 .header {
-  background-color: var(--secondary-color);
+  background-color: var(--header-color);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -134,6 +136,10 @@ html {
   display: block;
   margin: 0 auto;
   border: 1px solid var(--primary-color);
+  box-shadow: 5px 3px 3px var(--header-color);
+}
+.work-examples-title {
+  background-color: var(--header-color);
 }
 
 .work-examples h4 {
@@ -145,7 +151,7 @@ html {
 }
 
 .contact-header {
-  background-color: var(--primary-color);
+  background-color: var(--header-color);
   padding-top: 10px;
   padding-bottom: 10px;
 }
