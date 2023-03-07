@@ -97,7 +97,7 @@ html {
 
 .about-text {
   margin-top: 200px;
-  font-size: 36px;
+  font-size: 32px;
   text-align: center;
   margin: 0 auto;
 }
@@ -140,6 +140,8 @@ html {
 }
 .work-examples-title {
   background-color: var(--header-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .work-examples h4 {
@@ -181,5 +183,12 @@ footer .fa-brands:hover {
 
 footer {
   background-color: #f8f9fa;
-  margin-top: 50px;
+  margin-top: 25px;
+  position: absolute;
+  width: 100%;
+}
+
+.spacer {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
