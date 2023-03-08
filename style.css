@@ -17,18 +17,38 @@ h4 {
 }
 
 .hero {
-  background-color: #f1f2f6;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  position: relative;
 }
+.video {
+  height: 100vh;
+  width: 100%;
+  background-position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 0.3;
+}
+.header-content {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .home-buttons {
   text-align: center;
 }
 
+.home-buttons button {
+  font-size: 36px;
+}
+
 .profile-pic {
-  max-width: 50%;
-  display: block;
+  max-width: 75%;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 @media (max-width: 500px) {
@@ -39,23 +59,27 @@ h4 {
 
 .name {
   color: var(--heading-color);
+  padding-top: 150px;
+  font-size: 64px;
 }
 
 .title {
   color: var(--heading-color);
+  font-size: 42px;
+  padding-bottom: 10px;
 }
 
 .work-button {
   background-color: var(--primary-color);
-  border-radius: 4px;
-  padding: 5px 10px;
+  border-radius: 6px;
+  padding: 15px 40px;
   margin-right: 10px;
 }
 
 .contact-button {
   background-color: var(--secondary-color);
-  border-radius: 4px;
-  padding: 5px 10px;
+  border-radius: 6px;
+  padding: 15px 40px;
   margin-left: 10px;
   text-decoration: none;
 }
@@ -70,21 +94,25 @@ html {
 }
 
 .homepage-work-pic {
-  max-width: 300px;
+  max-width: 400px;
   border: solid var(--primary-color);
   display: block;
   margin: 15px auto;
-  max-height: 200px;
+  max-height: 300px;
   box-shadow: 5px 3px 3px var(--header-color);
 }
 
 .projects {
   text-decoration: underline;
   margin-bottom: 50px;
+  font-size: 60px;
+}
+
+.homepage-work-title {
+  font-size: 36px;
 }
 
 .about-pics {
-  max-height: 300px;
   padding-bottom: 10px;
   margin: 0 auto;
 }
@@ -95,20 +123,31 @@ html {
   margin: 0 auto;
 }
 
+.about-header-text {
+  line-height: 1.5;
+  font-size: 48px;
+}
 .about-text {
   margin-top: 200px;
-  font-size: 32px;
+  font-size: 36px;
   text-align: center;
   margin: 0 auto;
 }
 
+.certificate {
+  max-height: 500px;
+  margin: 0 auto;
+}
 .travel-pic {
-  margin-left: 50%;
+  margin: 0 auto;
+  max-height: 500px;
 }
 
 .family-pic {
-  margin-right: 50%;
+  margin: 0 auto;
+  max-height: 500px;
 }
+
 .header {
   background-color: var(--header-color);
   padding-top: 10px;
@@ -134,14 +173,15 @@ html {
   height: 250px;
   padding: 10px;
   display: block;
+  border-radius: 4px;
   margin: 0 auto;
   border: 1px solid var(--primary-color);
   box-shadow: 5px 3px 3px var(--header-color);
 }
 .work-examples-title {
   background-color: var(--header-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .work-examples h4 {
@@ -154,14 +194,18 @@ html {
 
 .contact-header {
   background-color: var(--header-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .email-link {
   color: black;
 }
-
+.contact {
+  font-size: 55px;
+  padding-top: 80px;
+}
+.contact-text {
+  font-size: 50px;
+}
 .linkedin-link {
   color: black;
   text-decoration: none;
@@ -186,9 +230,4 @@ footer {
   margin-top: 25px;
   position: absolute;
   width: 100%;
-}
-
-.spacer {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
