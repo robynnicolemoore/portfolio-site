@@ -231,3 +231,7 @@ footer {
   position: absolute;
   width: 100%;
 }
+
+.work-footer {
+  padding-right: 200px;
+}
