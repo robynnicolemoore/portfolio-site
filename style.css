@@ -151,10 +151,44 @@ html {
   max-height: 500px;
 }
 
+.contact {
+  font-size: 55px;
+  padding-top: 100px;
+}
+
+.contact-text {
+  font-size: 50px;
+}
+
 .header {
   background-color: var(--header-color);
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.footer-icons a {
+  padding: 20px;
+  color: var(--primary-color);
+  font-size: 36px;
+}
+.footer-icons {
+  text-align: center;
+}
+
+footer .fa-brands:hover {
+  color: black;
+  transition: ease-in-out 500ms;
+}
+
+footer {
+  background-color: #f8f9fa;
+  margin-top: 25px;
+  position: absolute;
+  width: 100%;
+}
+
+.work-footer {
+  padding-right: 20px;
 }
 @media (max-width: 500px) {
   .about-pics {
@@ -223,37 +257,10 @@ html {
   .email-link {
     color: black;
   }
-  .contact {
-    font-size: 55px;
-    padding-top: 80px;
-  }
-  .contact-text {
-    font-size: 50px;
-  }
+
   .linkedin-link {
     color: black;
     text-decoration: none;
-  }
-
-  .footer-icons a {
-    padding: 20px;
-    color: var(--primary-color);
-    font-size: 36px;
-  }
-  .footer-icons {
-    text-align: center;
-  }
-
-  footer .fa-brands:hover {
-    color: black;
-    transition: ease-in-out 500ms;
-  }
-
-  footer {
-    background-color: #f8f9fa;
-    margin-top: 25px;
-    position: absolute;
-    width: 100%;
   }
 
   .contact-text {
