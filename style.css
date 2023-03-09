@@ -127,6 +127,15 @@ html {
   text-align: center;
   margin: 0 auto;
 }
+.work-examples img {
+  max-width: 500px;
+  padding: 10px;
+  display: block;
+  border-radius: 4px;
+  margin: 0 auto;
+  border: 1px solid var(--primary-color);
+  box-shadow: 5px 3px 3px var(--header-color);
+}
 
 .certificate {
   max-height: 500px;
@@ -185,8 +194,7 @@ html {
   }
 
   .work-examples img {
-    max-width: 500px;
-    height: 250px;
+    max-width: 200px;
     padding: 10px;
     display: block;
     border-radius: 4px;
@@ -248,9 +256,6 @@ html {
     width: 100%;
   }
 
-  .work-footer {
-    padding-right: 200px;
-  }
   .contact-text {
     font-size: 30px;
   }
